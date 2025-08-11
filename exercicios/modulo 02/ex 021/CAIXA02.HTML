@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           background-color: dimgray;
+            margin:0px ;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav {
+            background-color: rgb(107, 107, 107);
+            padding: 3px;
+            box-shadow: 2px 3px 7px black
+            
+
+        }
+        nav >  a {
+            text-decoration: none;
+            color: rgb(252, 252, 252);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav >  a:hover {
+            text-decoration: underline;
+
+        }
+        main{
+          background-color: white;
+          padding: 10px;
+          margin: 10px;
+          border-radius: 20px 0px ;
+          box-shadow: 2px 3px 7px black
+        }
+        article{
+           background-color: lightgrey;
+        }
+        article {
+            background-color: lightgray;
+            padding: 10px;
+            
+            
+        }
+        article >  aside {
+            background-color: rgb(170, 170, 170);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, política e tecnologia</p>
+            
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptate deserunt, fuga nostrum tempore earum consequuntur, aliquid iste veniam velit commodi mollitia? Nobis mollitia aspernatur dicta ratione harum, in delectus.</p>
+                <aside>
+                    <p>Artigo escrito por josé da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate mollitia, at sunt maxime iusto molestias eveniet! Voluptate minus eum iste distinctio blanditiis in exercitationem, harum fuga accusantium facilis, commodi ipsum?</p>
+    </footer>
+    
+</body>
+</html>
