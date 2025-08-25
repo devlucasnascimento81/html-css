@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ullam dolores magni excepturi sit quam, accusamus cupiditate ea qui iusto inventore veritatis odio ab mollitia libero earum aliquid. Sit, modi!</p>
+    
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame"> Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame"> Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur et sed ipsum tenetur commodi, necessitatibus distinctio sequi, natus nulla ullam saepe sapiente placeat? Nisi, quos? Et rerum delectus fuga eum!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas culpa tempore sed cumque minus officiis alias porro ducimus repellendus magni, consequuntur quam rerum ullam nobis earum error iusto eius blanditiis.</p> <img src='imagens/mascote.png'> " frameborder="0">
+        <p>Infelizmente seu navegador  não é compatível.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus maiores voluptates animi mollitia dolor explicabo excepturi inventore illum quaerat exercitationem, eos minus recusandae quam sint modi vel nostrum est. Beatae?</p>
+    
+</body>
+</html>
