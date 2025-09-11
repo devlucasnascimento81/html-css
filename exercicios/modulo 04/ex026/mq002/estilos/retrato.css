@@ -3,6 +3,7 @@
 /*Aparelho  em pé*/
 
 body {
-    background-image: url(exercicios\modulo04\ex026\imagens\cev-landscape.jpg);
+    background-image: url(../imagens2/cev-portrait.jpg);
+    background-position: center bottom;
 
 }
